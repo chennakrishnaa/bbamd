@@ -45,7 +45,7 @@ define(
 					 this.model.reset();
 					 return;
 				 }
-
+				//fetch model
 				 this.model.fetch();
 			 },
 		});
