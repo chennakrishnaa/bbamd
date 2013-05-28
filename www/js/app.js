@@ -5,13 +5,35 @@
 requirejs.config({
     "baseUrl": "js/lib",
     "paths": {
-      "app": "../app"
+      "app": "../app",
+      "account":"../accounts",
+      "movement":"../movements",
+     
     },
     "shim": {
+    	
         "jquery.alpha": ["jquery"],
-        "jquery.beta": ["jquery"]
+        "jquery.beta": ["jquery"],
+        "underscore": {
+        	exports:"_"
+        },
+        "pagebus":{
+        	exports:"PageBus"
+        },
+        "backbone": {
+        	deps:["jquery","underscore"],
+        	exports:"Backbone"
+        },
+        "rivets":{
+        	exports:"rivets"
+        }
+    },
+    config:{
+    	"account/model/account": {
+    		accountUrl:"someUrl"
+    	}
     }
 });
 
 // Load the main app module to start the app
-requirejs(["app/main"]);
+requirejs(["../main"]);
