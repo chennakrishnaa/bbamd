@@ -10,6 +10,14 @@ define(
 				//topic 
 				topic = this.options.topic;
 				 // Wire the queue listeners for responding to events coming from the bus
+				 console.log("subscribing to " + topic);
+				 //var list = Pagebus.query(topic);
+				 /*if (list.length)
+				 {
+				 	_.forEach(list, function(obj){
+				 		console.log(obj.topic);
+				 	});
+				 }*/
 				 Pagebus.subscribe(topic, function (param) {
 					 view.updateModel(param.userid);
 				 });
@@ -17,7 +25,7 @@ define(
 				el=this.$el;
 				//append the el
 				this.$el.append(template);
-				console.log(this.$el);
+				//console.log(this.$el);
 				//render the accounts only once the page is loaded
 				this.listenToOnce(this.model, 'add', this.render);
 				//fetch data
