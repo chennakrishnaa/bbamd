@@ -1,8 +1,13 @@
-<div>
-<ul id="account-list">
-	<li data-each-account="accounts">
-		<a href="#"data-id="account.number" data-text='account.name'></a>
-		<span data-text='account.number'></span>
+<ul>
+	<% for (i=0;i<accounts.length;i++) {
+		var account = accounts[i];
+		
+	%>
+	<li><a href="#" id=<%=account.number%>><span><%=account.name%></a></span>
+		<span><%=account.number%></span>
+		<span><%=account.getName()%></span>
 	</li>
+	<%
+	}
+	%>
 </ul>
-</div>
