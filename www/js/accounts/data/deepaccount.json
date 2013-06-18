@@ -1,0 +1,14 @@
+ {productlist: [{
+   "name":"venkat",
+   "number":"123456"},
+   {"name":"gali",
+   "number":"98766"},
+   {"name":"gali",
+   "number":"98766"}]
+   summary: [{"currency":"euro", "total":"30"
+   },
+   {"currency":"dollar", "total":"10"
+   },
+   ]
+   }
+ 
