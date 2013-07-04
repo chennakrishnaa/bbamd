@@ -37,7 +37,7 @@ define(
 			  *
 			  * @param userid to update. If '', then clears the collection
 			  */
-			 updateModel: function (userid) {
+			updateModel: function (userid) {
 				 
 				 this.model.userid = userid;
 				this.model.reset();

@@ -32,7 +32,8 @@ requirejs.config({
     	"account/model/account": {
     		accountUrl:"someUrl"
     	}
-    }
+    },
+    waitSeconds:0
 });
 
 // Load the main app module to start the app

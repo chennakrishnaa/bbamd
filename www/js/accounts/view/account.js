@@ -6,7 +6,7 @@ define(
 			initialize: function () {
 				var view = this.view,
 				//set model
-				model = this.model = new accountCollection(),
+				model = this.model = this.options.accountCollection,
 				//topic 
 				topic = this.options.topic;
 				 // Wire the queue listeners for responding to events coming from the bus
@@ -27,8 +27,10 @@ define(
 				this.$el.append(template);
 				//console.log(this.$el);
 				//render the accounts only once the page is loaded
-				this.listenToOnce(this.model, 'add', this.render);
+				//this.listenToOnce(this.model, 'add', this.render);
 				//fetch data
+				rivets.bind(this.$el,{accounts:this.model,summary:this.model.summary})
+				//this.model.listenToOnce(this.model, 'add', this.render);
 				model.fetch({success:function() {console.log(model)}});
 				
 				
@@ -39,7 +41,14 @@ define(
 			//render the template
 			render: function() {
 					//render template
-					rivets.bind(this.$el,{accounts:this.model})
+					//var data = new Backbone.Model(this.model.models[0]);
+					//console.log(data.productlist);
+					//var accounts = new Backbone.Model(data.attributes.productlist),
+					//summary = new Backbone.Model(data.attributes.summary);
+					//console.log(accounts);
+					//console.log(summary);
+					console.log(this.model.summary);
+					rivets.bind(this.$el,{accounts:this.model,summary:this.model.summary})
 					//this.$el.html(this.template(this.model.attributes));
 					
 			},
