@@ -24,6 +24,9 @@ requirejs.config({
         	deps:["jquery","underscore"],
         	exports:"Backbone"
         },
+        "deep-model":{
+            deps:["backbone","underscore"]
+        },
         "rivets":{
         	exports:"rivets"
         }

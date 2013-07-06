@@ -1,7 +1,102 @@
-[   {
-   "name":"venkat",
-   "number":"123456"},
-   {"name":"gali",
-   "number":"98766"},
-   {"name":"gali",
-   "number":"98766"}]
+{
+  "movementDTOList": [
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "USD",
+      "pending": false,
+      "detailPresent": true,
+      "movementId": "1",
+      "executionDate": "29/05/2013",
+      "amount": "-10",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA RAB",
+      "valueDate": "",
+      "period": "THIS_WEEK"
+    },
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "USD",
+      "pending": false,
+      "detailPresent": true,
+      "movementId": "2",
+      "executionDate": "28/05/2013",
+      "amount": "700,00",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA",
+      "valueDate": "28/05/2013",
+      "period": "THIS_WEEK"
+    },
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "USD",
+      "pending": false,
+      "detailPresent": false,
+      "movementId": "3",
+      "executionDate": "30/05/2013",
+      "amount": "300,00",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA",
+      "valueDate": "29/05/2013",
+      "period": "THIS_WEEK"
+    },
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "EUR",
+      "pending": true,
+      "detailPresent": false,
+      "movementId": "3",
+      "executionDate": "30/05/2013",
+      "amount": "979,18",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA",
+      "valueDate": "29/05/2013",
+      "period": "Today"
+    },
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "EUR",
+      "pending": true,
+      "detailPresent": false,
+      "movementId": "3",
+      "executionDate": "30/05/2013",
+      "amount": "979,18",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA",
+      "valueDate": "29/05/2013",
+      "period": "PREVIOUS_MONTH"
+    },
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "EUR",
+      "pending": true,
+      "detailPresent": false,
+      "movementId": "3",
+      "executionDate": "30/05/2013",
+      "amount": "979,18",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA",
+      "valueDate": "29/05/2013",
+      "period": "PREVIOUS_MONTH"
+    },
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "EUR",
+      "pending": true,
+      "detailPresent": false,
+      "movementId": "3",
+      "executionDate": "30/05/2013",
+      "amount": "979,18",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA",
+      "valueDate": "29/05/2013",
+      "period": "THIS_MONTH"
+    },
+    {
+      "description": " HNFLVOHYFXYA ATTTTUBA\r\nBE97001693566749\r\nBIC GEBABEBB VIA MOBILE BANKING\r\nZONDER MEDEDELING\r\n",
+      "currency": "EUR",
+      "pending": true,
+      "detailPresent": false,
+      "movementId": "3",
+      "executionDate": "30/05/2013",
+      "amount": "979,18",
+      "movementText": "HNFLVOHYFXYA ATTTTUBA",
+      "valueDate": "29/05/2013",
+      "period": "PREVIOUS day"
+    }
+  ],
+  "numberPending": 0,
+  "completeListFlag": false
+}
