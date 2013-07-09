@@ -4,6 +4,10 @@ define(["backbone","deep-model", "movement/collections/movements"], function(Bac
 		initialize: function() {
 			var movementList = new movements(this.get("movements"));
     		this.set("movements",movementList);
+		},
+		parse: function(resp) {
+			//console.log(resp);
+			return resp;
 		}
 
 	});

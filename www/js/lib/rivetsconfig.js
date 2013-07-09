@@ -27,7 +27,6 @@ define(["rivets", "backbone"], function(rivets, backbone) {
                 if (obj instanceof Backbone.Collection) {
                     return obj["models"];
                 } else {
-                    console.log(keypath);
                     return obj.get(keypath);
                 }
             },

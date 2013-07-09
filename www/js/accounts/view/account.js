@@ -54,6 +54,7 @@ define(
 			},
 			publishEvent: function(el) {
 				//console.log($(el))
+				el.preventDefault();
 				console.log($(el.target).attr('id'));
 				Pagebus.publish("showmovements", {"accountid":$(el.target).attr('id')})
 			},

@@ -1,5 +1,15 @@
+
+#account {
+	position:fixed;
+}
 #accounts li{
 	display: block;
 	background: rgba(47, 211, 71, 0.5);
+
+}
+#movements {
+	margin-bottom:100px;
+	height:600px;
+	overflow: scroll;
 }
 

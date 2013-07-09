@@ -1,8 +1,9 @@
 define(["backbone", "movement/model/period", "movement/config/config"],
-	function(Backbone, movementModel1, config) {
+	function(Backbone, movementModel, config) {
 
 		var movementCollection = Backbone.Collection.extend({
 			//model: movementModel, //the model for the collection
+			//periodCollection: new Backbone.collection(),
 			url: config.account, //url of the data
 			initialize: function(movementModel) {
 				this.model = movementModel;
@@ -17,7 +18,8 @@ define(["backbone", "movement/model/period", "movement/config/config"],
 					};
 				});
 				//console.log(JSON.stringify(mappedGroups));
-				return mappedGroups;
+				//console.log(this);
+				return mappedGroups
 				//console.log(movements);
 			}
 		});
