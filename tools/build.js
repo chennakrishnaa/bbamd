@@ -14,6 +14,12 @@
         //included since it is already in require-jquery.js
         {
             "name": "app"
+        },
+        {
+            "name":"account"
+        },
+        {
+            "name":"movement"
         }
     ]
 }

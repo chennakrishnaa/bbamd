@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, user-scalable=false;">
+    <title>Sepa Transfer</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/selectize.default.css">
+
+    <script src="js/lib/sinon.js"></script>
+    <script src="js/stubs/fake-server.js"></script>
+    <script data-main="js/app" src="js/lib/require.js"></script>
+    <style type="text/css">
+    .demo-animals .scientific {
+        font-weight: normal;
+        opacity: 0.3;
+        margin: 0 0 0 2px;
+    }
+    .demo-animals .scientific::before {
+        content:'(';
+    }
+    .demo-animals .scientific::after {
+        content:')';
+    }
+    </style>
+
+</head>
+
+<body>
+    <div id="wrapper">
+    <div class="demo">
+        <div class="control-group">
+            <label for="select-animal">Animal:</label>
+            <select id="select-animal" class="select-animal demo-animals" placeholder="Select animal..."></select>
+        </div>
+       
+
+    </div>
+     <div class="demo">
+        <div class="control-group">
+            <label for="select-account">From:</label>
+            <select id="select-account" class="select-account demo-animals" placeholder="Select account..."></select>
+        </div>
+         <div class="selected-account">
+            <span class="iban"></span> <span class="amount"></span>
+
+        </div>
+       
+    </div>
+</div>
+</body>
+
+</html>

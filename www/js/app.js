@@ -8,12 +8,16 @@ requirejs.config({
       "app": "../app",
       "account":"../accounts",
       "movement":"../movements",
+      "login":"../login",
+      "sepa":"../sepa",
+      "stubs":"../stubs"
      
     },
     "shim": {
     	
         "jquery.alpha": ["jquery"],
         "jquery.beta": ["jquery"],
+        "selectize":["jquery"],
         "underscore": {
         	exports:"_"
         },
@@ -28,9 +32,24 @@ requirejs.config({
             deps:["backbone","underscore"]
         },
         "rivets":{
+            deps:["jquery"],
         	exports:"rivets"
+        },
+        "iScroll": {
+            exports:"iScroll"
+        },
+        "sinon": {
+            exports:"sinon"
         }
     },
+    /*"packages" :{[
+        "accounts": {
+            location:"account"
+        },
+
+        ]
+    },*/
+
     config:{
     	"account/model/account": {
     		accountUrl:"someUrl"

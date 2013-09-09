@@ -3,10 +3,11 @@ define(["backbone", "movement/model/period", "movement/config/config"],
 
 		var movementCollection = Backbone.Collection.extend({
 			//model: movementModel, //the model for the collection
-			//periodCollection: new Backbone.collection(),
+			periodCollection: new Backbone.Collection(),
 			url: config.account, //url of the data
 			initialize: function(movementModel) {
-				this.model = movementModel;
+				this.periodCollection.model = movementModel;
+				//this.model = movementModel;
 			},
 			parse: function(response) {
 				var groups = _.groupBy(response.movementDTOList, 'period');
@@ -19,7 +20,10 @@ define(["backbone", "movement/model/period", "movement/config/config"],
 				});
 				//console.log(JSON.stringify(mappedGroups));
 				//console.log(this);
-				return mappedGroups
+				//this.periodCollection = this.set("periodCollection", mappedGroups);
+				this.periodCollection.add(mappedGroups);
+				console.log(this.periodCollection);
+				return mappedGroups;
 				//console.log(movements);
 			}
 		});
