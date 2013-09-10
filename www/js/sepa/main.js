@@ -34,7 +34,7 @@ define(['selectize', 'underscore'], function(selectize, _) {
                 },
                 render: {
                     option: function(data, escape) {
-                        return '<div><div><span class="label">' + escape(data.alias) + '</span><span class="amount">'+ escape(data.balance) + '$</span></div><span class="caption">' + escape(data.iban) +'</span></div>';
+                        return '<div><div><span class="label">' + escape(data.alias) + '</span><span class="amount">'+ escape(data.balance) + '€</span></div><span class="caption">' + escape(data.iban) +'</span></div>';
                     }
                 }
             });

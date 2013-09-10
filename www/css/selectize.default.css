@@ -125,7 +125,7 @@
   font-family: inherit;
   font-size: 13px;
   -webkit-font-smoothing: inherit;
-  line-height: 18px;
+  line-height: 26px;
   color: #303030;
 }
 
@@ -264,6 +264,8 @@
 .selectize-dropdown [data-selectable] {
   overflow: hidden;
   cursor: pointer;
+  margin: 0.3em;
+  margin: 0.5em;
 }
 
 .selectize-dropdown [data-selectable] .highlight {

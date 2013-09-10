@@ -126,5 +126,5 @@ input[type=button]:hover {
 		border-radius: 0;
 	}
 }
-.select-account .caption { display:block;}
+.select-account .caption { display:block; color: green; font-weight: bold;}
 .select-account .amount {float:right;}
