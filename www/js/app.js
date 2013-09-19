@@ -5,41 +5,41 @@
 requirejs.config({
     "baseUrl": "js/lib",
     "paths": {
-      "app": "../app",
-      "account":"../accounts",
-      "movement":"../movements",
-      "login":"../login",
-      "sepa":"../sepa",
-      "stubs":"../stubs"
-     
+        "app": "../app",
+        "account": "../accounts",
+        "movement": "../movements",
+        "login": "../login",
+        "sepa": "../sepa",
+        "stubs": "../stubs"
+
     },
     "shim": {
-    	
         "jquery.alpha": ["jquery"],
         "jquery.beta": ["jquery"],
-        "selectize":["jquery"],
+        "selectize": ["jquery"],
+        "jquery.mask":["jquery"],
         "underscore": {
-        	exports:"_"
+            exports: "_"
         },
-        "pagebus":{
-        	exports:"PageBus"
+        "pagebus": {
+            exports: "PageBus"
         },
         "backbone": {
-        	deps:["jquery","underscore"],
-        	exports:"Backbone"
+            deps: ["jquery", "underscore"],
+            exports: "Backbone"
         },
-        "deep-model":{
-            deps:["backbone","underscore"]
+        "deep-model": {
+            deps: ["backbone", "underscore"]
         },
-        "rivets":{
-            deps:["jquery"],
-        	exports:"rivets"
+        "rivets": {
+            deps: ["jquery"],
+            exports: "rivets"
         },
         "iScroll": {
-            exports:"iScroll"
+            exports: "iScroll"
         },
         "sinon": {
-            exports:"sinon"
+            exports: "sinon"
         }
     },
     /*"packages" :{[
@@ -50,12 +50,12 @@ requirejs.config({
         ]
     },*/
 
-    config:{
-    	"account/model/account": {
-    		accountUrl:"someUrl"
-    	}
+    config: {
+        "account/model/account": {
+            accountUrl: "someUrl"
+        }
     },
-    waitSeconds:0
+    waitSeconds: 0
 });
 
 // Load the main app module to start the app

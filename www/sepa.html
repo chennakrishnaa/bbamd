@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width, user-scalable=false;">
+   <meta name="viewport" content="width=device-width">
     <title>Sepa Transfer</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -39,7 +39,7 @@
        
 
     </div>
-     <div class="demo">
+     <!--<div class="demo">
         <div class="control-group">
             <label for="select-account">From:</label>
             <select id="select-account" class="select-account demo-animals" placeholder="Select account..."></select>
@@ -48,8 +48,18 @@
             <span class="iban"></span> <span class="amount"></span>
 
         </div>
-       
+       <input type="text" placeholder="***** ***** ***** *****" class="currency">
+    </div>-->
+     <div class="demo">
+        <div class="control-group">
+            <label for="select-beneficiary">To:</label>
+            <select id="select-beneficiary" class="select-beneficiary demo-animals" placeholder="Select account..."></select>
+        </div>
+         
     </div>
+    <input type="text" placeholder="***** ***** ***** *****" class="currency">
+    <input type="text" placeholder="+++ 999/9999/99999 +++" class="structured">
+    
 </div>
 </body>
 

@@ -3,7 +3,7 @@ define(['stubs/data/sepa'], function(SepaData){
     /\/rpc\/sepa\/getFundTransferEntryCharacteristics/, [200, {
             'Content-Type': 'application/json'
         },
-        JSON.stringify(SepaData.getFundTransferEntryCharacteristics.largeData)]
+        JSON.stringify(SepaData.getFundTransferEntryCharacteristics.beneficiaryData)]
     );
-    return
+    return;
 });

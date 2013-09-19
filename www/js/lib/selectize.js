@@ -1320,11 +1320,11 @@
 			$dropdown_content.html(html.join(''));
 	
 			// highlight matching terms inline
-			if (self.settings.highlight && results.query.length && results.tokens.length) {
+			/*if (self.settings.highlight && results.query.length && results.tokens.length) {
 				for (i = 0, n = results.tokens.length; i < n; i++) {
 					highlight($dropdown_content, results.tokens[i].regex);
 				}
-			}
+			}*/
 	
 			// add "selected" class to selected options
 			if (!self.settings.hideSelected) {

@@ -10,21 +10,21 @@ define(function() {
                                 "balance": "60.05",
                                 "iban": "BE96001123145687",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145687#EUR#123"
                             }, {
                                 "alias": "Max",
                                 "balance": "260.15",
                                 "iban": "BE96001123145688",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145688#EUR#123"
                             }, {
                                 "alias": "Jonathan",
                                 "balance": "500",
                                 "iban": "BE96001123145689",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145689#EUR#123"
                             }],
                             "savingAccounts": [{
@@ -71,21 +71,21 @@ define(function() {
                                 "balance": "60.05",
                                 "iban": "BE96001123145687",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145687#EUR#123"
                             }, {
                                 "alias": "Max",
                                 "balance": "260.15",
                                 "iban": "BE96001123145688",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145688#EUR#123"
                             }, {
                                 "alias": "Jonathan",
                                 "balance": "500",
                                 "iban": "BE96001123145689",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145689#EUR#123"
                             }],
                             "savingAccounts": [{
@@ -125,139 +125,146 @@ define(function() {
                     "originatorAccounts": {
                         "ownOriginatorAccounts": {
                             "currentAccounts": [{
-                                "alias": "Frank Gonzalez",
-                                "balance": "2011.03",
-                                "iban": "BE96001123145370",
+                                "alias": "Eldridge Nguy",
+                                "balance": "1172.47",
+                                "iban": "BE96001123144776",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE96001123145370#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123144776#EUR#123"
                             }, {
-                                "alias": "Ronald Allen",
-                                "balance": "7092.53",
-                                "iban": "BE96001123146496",
+                                "alias": "Felisa Ransler",
+                                "balance": "8507.67",
+                                "iban": "BE96001123143736",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE96001123146496#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123143736#EUR#123"
                             }, {
-                                "alias": "Thomas Perez",
-                                "balance": "4163.27",
-                                "iban": "BE96001123142930",
+                                "alias": "Renate Din",
+                                "balance": "4507.77",
+                                "iban": "BE96001123148266",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE96001123142930#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123148266#EUR#123"
                             }, {
-                                "alias": "Richard Johnson",
-                                "balance": "3971.31",
-                                "iban": "BE9600112314820",
+                                "alias": "Samara Dattilo",
+                                "balance": "967.36",
+                                "iban": "BE96001123141704",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE9600112314820#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123141704#EUR#123"
                             }, {
-                                "alias": "Donald Miller",
-                                "balance": "1573.66",
-                                "iban": "BE9600112314745",
+                                "alias": "Wilhemina Couden",
+                                "balance": "8806.49",
+                                "iban": "BE96001123146414",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE9600112314745#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123146414#EUR#123"
                             }, {
-                                "alias": "Donald Wilson",
-                                "balance": "6321.29",
-                                "iban": "BE960011231445",
+                                "alias": "Minna Duggins",
+                                "balance": "3437.83",
+                                "iban": "BE96001123146736",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE960011231445#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123146736#EUR#123"
                             }, {
-                                "alias": "Matthew Jackson",
-                                "balance": "679.03",
-                                "iban": "BE96001123146396",
+                                "alias": "Ashanti Helbling",
+                                "balance": "4458.98",
+                                "iban": "BE96001123143691",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE96001123146396#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123143691#EUR#123"
                             }, {
-                                "alias": "Scott Brown",
-                                "balance": "9716.75",
-                                "iban": "BE96001123148735",
+                                "alias": "Lakeisha Vallimont",
+                                "balance": "6417.69",
+                                "iban": "BE9600112314450",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE96001123148735#EUR#123"
+                                "type": "Medical",
+                                "id": "BE9600112314450#EUR#123"
                             }, {
-                                "alias": "Michael Lee",
-                                "balance": "9199.06",
-                                "iban": "BE96001123148432",
+                                "alias": "Louie Pishner",
+                                "balance": "3200.11",
+                                "iban": "BE96001123141621",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE96001123148432#EUR#123"
+                                "type": "Medical",
+                                "id": "BE96001123141621#EUR#123"
                             }, {
-                                "alias": "Steven Wilson",
-                                "balance": "9434.33",
-                                "iban": "BE96001123145498",
+                                "alias": "Claudette Depalo",
+                                "balance": "7186.87",
+                                "iban": "BE9600112314926",
                                 "currency": "EUR",
-                                "type": "CURRENT",
-                                "id": "BE96001123145498#EUR#123"
+                                "type": "Medical",
+                                "id": "BE9600112314926#EUR#123"
                             }],
                             "savingAccounts": [{
-                                "alias": "Jason Gonzalez",
-                                "balance": "2943.79",
-                                "iban": "BE96001123148728",
+                                "alias": "Sammy Paszkiewicz",
+                                "balance": "9573.94",
+                                "iban": "BE96001123141974",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123148728#EUR#123"
+                                "id": "BE96001123141974#EUR#123"
                             }, {
-                                "alias": "John Taylor",
-                                "balance": "508.11",
-                                "iban": "BE96001123144806",
+                                "alias": "Malissa Bario",
+                                "balance": "6851.25",
+                                "iban": "BE96001123147042",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123144806#EUR#123"
+                                "id": "BE96001123147042#EUR#123"
                             }, {
-                                "alias": "Daniel Walker",
-                                "balance": "2088.66",
-                                "iban": "BE96001123148708",
+                                "alias": "Donita Blye",
+                                "balance": "6850.54",
+                                "iban": "BE96001123147611",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123148708#EUR#123"
+                                "id": "BE96001123147611#EUR#123"
                             }, {
-                                "alias": "Richard Lee",
-                                "balance": "1221.02",
-                                "iban": "BE96001123141291",
+                                "alias": "Olen Sliwa",
+                                "balance": "7017.00",
+                                "iban": "BE96001123143790",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123141291#EUR#123"
+                                "id": "BE96001123143790#EUR#123"
                             }, {
-                                "alias": "Anthony Young",
-                                "balance": "7408.27",
-                                "iban": "BE96001123141771",
+                                "alias": "Germaine Paszkiewicz",
+                                "balance": "2166.53",
+                                "iban": "BE96001123149556",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123141771#EUR#123"
+                                "id": "BE96001123149556#EUR#123"
                             }, {
-                                "alias": "Timothy Allen",
-                                "balance": "6148.44",
-                                "iban": "BE96001123144899",
+                                "alias": "Katharina Baile",
+                                "balance": "9608.95",
+                                "iban": "BE96001123143567",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123144899#EUR#123"
+                                "id": "BE96001123143567#EUR#123"
                             }, {
-                                "alias": "Jose Martinez",
-                                "balance": "9993.46",
-                                "iban": "BE96001123143785",
+                                "alias": "Gregory Kreitlow",
+                                "balance": "9740.64",
+                                "iban": "BE96001123141746",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123143785#EUR#123"
+                                "id": "BE96001123141746#EUR#123"
                             }, {
-                                "alias": "Brian Jones",
-                                "balance": "4934.36",
-                                "iban": "BE96001123141855",
+                                "alias": "Jenell Abruzzino",
+                                "balance": "145.43",
+                                "iban": "BE96001123147439",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123141855#EUR#123"
+                                "id": "BE96001123147439#EUR#123"
                             }, {
-                                "alias": "Donald Anderson",
-                                "balance": "498.29",
-                                "iban": "BE96001123148292",
+                                "alias": "Long Sandifer",
+                                "balance": "3357.93",
+                                "iban": "BE96001123147920",
                                 "currency": "EUR",
                                 "type": "SAVINGS",
-                                "id": "BE96001123148292#EUR#123"
+                                "id": "BE96001123147920#EUR#123"
+                            }, {
+                                "alias": "Anglea Simson",
+                                "balance": "2379.73",
+                                "iban": "BE96001123147238",
+                                "currency": "EUR",
+                                "type": "SAVINGS",
+                                "id": "BE96001123147238#EUR#123"
                             }]
                         }
                     },
@@ -285,1050 +292,1050 @@ define(function() {
                                 "balance": "7362.65",
                                 "iban": "BE96001123141545",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141545#EUR#123"
                             }, {
                                 "alias": "Prince Auyon",
                                 "balance": "8607.72",
                                 "iban": "BE96001123148526",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148526#EUR#123"
                             }, {
                                 "alias": "Judy Roemen",
                                 "balance": "7725.34",
                                 "iban": "BE96001123149905",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149905#EUR#123"
                             }, {
                                 "alias": "Louisa Myres",
                                 "balance": "8186.98",
                                 "iban": "BE96001123146057",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146057#EUR#123"
                             }, {
                                 "alias": "Renay Germann",
                                 "balance": "2060.74",
                                 "iban": "BE96001123141895",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141895#EUR#123"
                             }, {
                                 "alias": "Dung Chancer",
                                 "balance": "9949.30",
                                 "iban": "BE96001123141628",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141628#EUR#123"
                             }, {
                                 "alias": "Raquel Ehrlich",
                                 "balance": "7357.37",
                                 "iban": "BE96001123144810",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144810#EUR#123"
                             }, {
                                 "alias": "Rosetta Mcginnity",
                                 "balance": "5627.70",
                                 "iban": "BE96001123141979",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141979#EUR#123"
                             }, {
                                 "alias": "Sophia Mcclanahan",
                                 "balance": "8647.29",
                                 "iban": "BE96001123148009",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148009#EUR#123"
                             }, {
                                 "alias": "Ruth Mumma",
                                 "balance": "2302.34",
                                 "iban": "BE96001123141637",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141637#EUR#123"
                             }, {
                                 "alias": "Barbara Kohnen",
                                 "balance": "1878.11",
                                 "iban": "BE96001123141292",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141292#EUR#123"
                             }, {
                                 "alias": "Eldridge Renouf",
                                 "balance": "2747.10",
                                 "iban": "BE96001123149973",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149973#EUR#123"
                             }, {
                                 "alias": "Danyel Salisberry",
                                 "balance": "4685.00",
                                 "iban": "BE96001123142101",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142101#EUR#123"
                             }, {
                                 "alias": "Laquita Stoessel",
                                 "balance": "6366.76",
                                 "iban": "BE96001123147604",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147604#EUR#123"
                             }, {
                                 "alias": "Theresia Contras",
                                 "balance": "4284.72",
                                 "iban": "BE96001123144740",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144740#EUR#123"
                             }, {
                                 "alias": "Mercedez Courser",
                                 "balance": "6887.33",
                                 "iban": "BE96001123144032",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144032#EUR#123"
                             }, {
                                 "alias": "Lelia Fluaitt",
                                 "balance": "9678.33",
                                 "iban": "BE96001123149441",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149441#EUR#123"
                             }, {
                                 "alias": "Ethelyn Dubuc",
                                 "balance": "8820.39",
                                 "iban": "BE96001123146601",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146601#EUR#123"
                             }, {
                                 "alias": "Nelda Mcwaters",
                                 "balance": "7473.78",
                                 "iban": "BE96001123147601",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147601#EUR#123"
                             }, {
                                 "alias": "Marcell Rychlicki",
                                 "balance": "6779.89",
                                 "iban": "BE96001123145134",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145134#EUR#123"
                             }, {
                                 "alias": "Alfonzo Gee",
                                 "balance": "8244.07",
                                 "iban": "BE96001123146598",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146598#EUR#123"
                             }, {
                                 "alias": "Jettie Freiman",
                                 "balance": "5420.26",
                                 "iban": "BE96001123141995",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141995#EUR#123"
                             }, {
                                 "alias": "Cortney Faurot",
                                 "balance": "9574.39",
                                 "iban": "BE96001123148508",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148508#EUR#123"
                             }, {
                                 "alias": "Vonda Cawthorn",
                                 "balance": "9291.01",
                                 "iban": "BE96001123144550",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144550#EUR#123"
                             }, {
                                 "alias": "Meryl Houde",
                                 "balance": "9677.56",
                                 "iban": "BE9600112314944",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314944#EUR#123"
                             }, {
                                 "alias": "Dustin Merksamer",
                                 "balance": "7249.86",
                                 "iban": "BE96001123146581",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146581#EUR#123"
                             }, {
                                 "alias": "Patrick Gilliss",
                                 "balance": "452.40",
                                 "iban": "BE9600112314390",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314390#EUR#123"
                             }, {
                                 "alias": "Sanora Sandblom",
                                 "balance": "5234.87",
                                 "iban": "BE96001123142845",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142845#EUR#123"
                             }, {
                                 "alias": "Octavio Maltez",
                                 "balance": "7068.63",
                                 "iban": "BE96001123144030",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144030#EUR#123"
                             }, {
                                 "alias": "Odelia Barham",
                                 "balance": "2841.60",
                                 "iban": "BE96001123144632",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144632#EUR#123"
                             }, {
                                 "alias": "Gudrun Fantin",
                                 "balance": "9860.83",
                                 "iban": "BE96001123148538",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148538#EUR#123"
                             }, {
                                 "alias": "Elinore Nasalroad",
                                 "balance": "7549.32",
                                 "iban": "BE96001123146107",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146107#EUR#123"
                             }, {
                                 "alias": "Jasper Dru",
                                 "balance": "6480.13",
                                 "iban": "BE96001123143097",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143097#EUR#123"
                             }, {
                                 "alias": "Jayna Zarillo",
                                 "balance": "672.87",
                                 "iban": "BE96001123145414",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145414#EUR#123"
                             }, {
                                 "alias": "Ninfa Desposito",
                                 "balance": "5025.24",
                                 "iban": "BE96001123146477",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146477#EUR#123"
                             }, {
                                 "alias": "Joie Polkinghorn",
                                 "balance": "2728.25",
                                 "iban": "BE96001123144131",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144131#EUR#123"
                             }, {
                                 "alias": "Lynnette Scarpa",
                                 "balance": "4835.13",
                                 "iban": "BE96001123148545",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148545#EUR#123"
                             }, {
                                 "alias": "Kristen Mihalek",
                                 "balance": "2226.76",
                                 "iban": "BE96001123146269",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146269#EUR#123"
                             }, {
                                 "alias": "Priscilla Henrie",
                                 "balance": "6676.03",
                                 "iban": "BE96001123146641",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146641#EUR#123"
                             }, {
                                 "alias": "Roman Ilarraza",
                                 "balance": "1653.89",
                                 "iban": "BE9600112314807",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314807#EUR#123"
                             }, {
                                 "alias": "Elizabet Uzzo",
                                 "balance": "350.97",
                                 "iban": "BE96001123149260",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149260#EUR#123"
                             }, {
                                 "alias": "Troy Korbin",
                                 "balance": "2518.67",
                                 "iban": "BE96001123141491",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141491#EUR#123"
                             }, {
                                 "alias": "Marjorie Polanco",
                                 "balance": "7585.34",
                                 "iban": "BE96001123145035",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145035#EUR#123"
                             }, {
                                 "alias": "Marketta Schatzle",
                                 "balance": "2226.11",
                                 "iban": "BE96001123147745",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147745#EUR#123"
                             }, {
                                 "alias": "Carolin Balcom",
                                 "balance": "5880.49",
                                 "iban": "BE96001123149192",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149192#EUR#123"
                             }, {
                                 "alias": "Lakeisha Peckinpaugh",
                                 "balance": "4422.14",
                                 "iban": "BE96001123141173",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141173#EUR#123"
                             }, {
                                 "alias": "Christal Fregozo",
                                 "balance": "8894.39",
                                 "iban": "BE96001123142109",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142109#EUR#123"
                             }, {
                                 "alias": "Joey Muhl",
                                 "balance": "2014.42",
                                 "iban": "BE96001123145105",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145105#EUR#123"
                             }, {
                                 "alias": "Elliot Brinkhaus",
                                 "balance": "9659.62",
                                 "iban": "BE96001123145963",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145963#EUR#123"
                             }, {
                                 "alias": "Jame Pfautz",
                                 "balance": "1986.86",
                                 "iban": "BE96001123149937",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149937#EUR#123"
                             }, {
                                 "alias": "Mariko Hordyk",
                                 "balance": "4233.07",
                                 "iban": "BE96001123147162",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147162#EUR#123"
                             }, {
                                 "alias": "Isabella Vasilopoulos",
                                 "balance": "5027.46",
                                 "iban": "BE96001123141250",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141250#EUR#123"
                             }, {
                                 "alias": "Natacha Titler",
                                 "balance": "8293.11",
                                 "iban": "BE96001123144620",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144620#EUR#123"
                             }, {
                                 "alias": "Lizzie Aubrey",
                                 "balance": "6416.44",
                                 "iban": "BE96001123148429",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148429#EUR#123"
                             }, {
                                 "alias": "Joane Mandelbaum",
                                 "balance": "1435.94",
                                 "iban": "BE96001123142603",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142603#EUR#123"
                             }, {
                                 "alias": "Anastacia Fiscel",
                                 "balance": "1776.85",
                                 "iban": "BE960011231488",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE960011231488#EUR#123"
                             }, {
                                 "alias": "Ethyl Geldmacher",
                                 "balance": "1447.68",
                                 "iban": "BE96001123142927",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142927#EUR#123"
                             }, {
                                 "alias": "Willodean Simplot",
                                 "balance": "9922.31",
                                 "iban": "BE96001123145155",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145155#EUR#123"
                             }, {
                                 "alias": "Irena Cough",
                                 "balance": "6656.29",
                                 "iban": "BE96001123149846",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149846#EUR#123"
                             }, {
                                 "alias": "Vilma Imfeld",
                                 "balance": "3566.34",
                                 "iban": "BE96001123148425",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148425#EUR#123"
                             }, {
                                 "alias": "Dwana Dalio",
                                 "balance": "9150.96",
                                 "iban": "BE9600112314910",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314910#EUR#123"
                             }, {
                                 "alias": "Jeremy Farson",
                                 "balance": "4874.69",
                                 "iban": "BE96001123141334",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141334#EUR#123"
                             }, {
                                 "alias": "Roni Baddour",
                                 "balance": "2206.94",
                                 "iban": "BE96001123148731",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148731#EUR#123"
                             }, {
                                 "alias": "Mika Weiner",
                                 "balance": "1229.23",
                                 "iban": "BE96001123142180",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142180#EUR#123"
                             }, {
                                 "alias": "Reed Malnar",
                                 "balance": "3601.09",
                                 "iban": "BE96001123143111",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143111#EUR#123"
                             }, {
                                 "alias": "Beverlee Verhaag",
                                 "balance": "5381.82",
                                 "iban": "BE96001123147638",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147638#EUR#123"
                             }, {
                                 "alias": "Cassandra Draudt",
                                 "balance": "3950.23",
                                 "iban": "BE96001123144501",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144501#EUR#123"
                             }, {
                                 "alias": "Francie Preato",
                                 "balance": "3176.57",
                                 "iban": "BE96001123145987",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145987#EUR#123"
                             }, {
                                 "alias": "Peter Pruyn",
                                 "balance": "9904.35",
                                 "iban": "BE96001123144440",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144440#EUR#123"
                             }, {
                                 "alias": "Amberly Stigers",
                                 "balance": "9038.35",
                                 "iban": "BE96001123142972",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142972#EUR#123"
                             }, {
                                 "alias": "Maryjane Eckmann",
                                 "balance": "7217.98",
                                 "iban": "BE96001123149136",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149136#EUR#123"
                             }, {
                                 "alias": "Cierra Colaizzi",
                                 "balance": "4620.26",
                                 "iban": "BE96001123143964",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143964#EUR#123"
                             }, {
                                 "alias": "Ruthanne Swille",
                                 "balance": "9165.73",
                                 "iban": "BE96001123147709",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147709#EUR#123"
                             }, {
                                 "alias": "Akiko Shurkus",
                                 "balance": "5250.51",
                                 "iban": "BE96001123142931",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142931#EUR#123"
                             }, {
                                 "alias": "Yasuko Denzer",
                                 "balance": "9936.01",
                                 "iban": "BE96001123147845",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147845#EUR#123"
                             }, {
                                 "alias": "Burma Mulhall",
                                 "balance": "1233.26",
                                 "iban": "BE9600112314720",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314720#EUR#123"
                             }, {
                                 "alias": "Hortense Hafenbrack",
                                 "balance": "1659.33",
                                 "iban": "BE96001123146837",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146837#EUR#123"
                             }, {
                                 "alias": "Gus Arcano",
                                 "balance": "1391.40",
                                 "iban": "BE96001123142527",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142527#EUR#123"
                             }, {
                                 "alias": "Nevada Cuffari",
                                 "balance": "9845.23",
                                 "iban": "BE96001123148775",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148775#EUR#123"
                             }, {
                                 "alias": "Sanda Davide",
                                 "balance": "762.04",
                                 "iban": "BE96001123141527",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141527#EUR#123"
                             }, {
                                 "alias": "Drew Crouser",
                                 "balance": "3682.36",
                                 "iban": "BE96001123143784",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143784#EUR#123"
                             }, {
                                 "alias": "Izetta Joline",
                                 "balance": "5634.92",
                                 "iban": "BE96001123142386",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142386#EUR#123"
                             }, {
                                 "alias": "Carlene Swearngin",
                                 "balance": "2278.05",
                                 "iban": "BE96001123148302",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148302#EUR#123"
                             }, {
                                 "alias": "Terese Hewgley",
                                 "balance": "2357.05",
                                 "iban": "BE96001123141957",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141957#EUR#123"
                             }, {
                                 "alias": "Lashell Kleeman",
                                 "balance": "8409.09",
                                 "iban": "BE96001123143872",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143872#EUR#123"
                             }, {
                                 "alias": "Gerri Trattner",
                                 "balance": "4850.91",
                                 "iban": "BE96001123145354",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145354#EUR#123"
                             }, {
                                 "alias": "Boyce Seabrooke",
                                 "balance": "4063.88",
                                 "iban": "BE96001123146368",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146368#EUR#123"
                             }, {
                                 "alias": "Venetta Chaobal",
                                 "balance": "1138.11",
                                 "iban": "BE96001123141598",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141598#EUR#123"
                             }, {
                                 "alias": "Griselda Rutana",
                                 "balance": "4192.69",
                                 "iban": "BE96001123143742",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143742#EUR#123"
                             }, {
                                 "alias": "Vasiliki Dudley",
                                 "balance": "1168.16",
                                 "iban": "BE96001123149063",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149063#EUR#123"
                             }, {
                                 "alias": "Allegra Wrotten",
                                 "balance": "1035.03",
                                 "iban": "BE96001123141883",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141883#EUR#123"
                             }, {
                                 "alias": "Shelley Linssen",
                                 "balance": "6712.94",
                                 "iban": "BE96001123144574",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144574#EUR#123"
                             }, {
                                 "alias": "Cira Wetmore",
                                 "balance": "7914.47",
                                 "iban": "BE96001123144160",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144160#EUR#123"
                             }, {
                                 "alias": "Claris Cackowski",
                                 "balance": "628.33",
                                 "iban": "BE9600112314218",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314218#EUR#123"
                             }, {
                                 "alias": "Griselda Kuepfer",
                                 "balance": "7371.71",
                                 "iban": "BE96001123149192",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149192#EUR#123"
                             }, {
                                 "alias": "Albertha Bonson",
                                 "balance": "2832.79",
                                 "iban": "BE9600112314232",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314232#EUR#123"
                             }, {
                                 "alias": "Adriane Carouthers",
                                 "balance": "1450.05",
                                 "iban": "BE96001123146548",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146548#EUR#123"
                             }, {
                                 "alias": "Gale Welms",
                                 "balance": "6060.81",
                                 "iban": "BE96001123143732",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143732#EUR#123"
                             }, {
                                 "alias": "Cheryl Feagin",
                                 "balance": "2115.79",
                                 "iban": "BE96001123142729",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142729#EUR#123"
                             }, {
                                 "alias": "Arlyne Dincher",
                                 "balance": "2183.81",
                                 "iban": "BE96001123143106",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143106#EUR#123"
                             }, {
                                 "alias": "Hortencia Orf",
                                 "balance": "1349.19",
                                 "iban": "BE96001123141283",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141283#EUR#123"
                             }, {
                                 "alias": "Britta Glodich",
                                 "balance": "2112.77",
                                 "iban": "BE96001123144101",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144101#EUR#123"
                             }, {
                                 "alias": "Twyla Diekrager",
                                 "balance": "5327.75",
                                 "iban": "BE96001123147658",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147658#EUR#123"
                             }, {
                                 "alias": "Gonzalo Eisbach",
                                 "balance": "7042.30",
                                 "iban": "BE96001123142220",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142220#EUR#123"
                             }, {
                                 "alias": "Rose Fasheh",
                                 "balance": "3266.39",
                                 "iban": "BE96001123143999",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143999#EUR#123"
                             }, {
                                 "alias": "Shandi Pleppo",
                                 "balance": "5123.33",
                                 "iban": "BE96001123144181",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144181#EUR#123"
                             }, {
                                 "alias": "Eneida Pomerleau",
                                 "balance": "7311.66",
                                 "iban": "BE96001123146136",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146136#EUR#123"
                             }, {
                                 "alias": "Mozella Plasse",
                                 "balance": "13.71",
                                 "iban": "BE9600112314829",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314829#EUR#123"
                             }, {
                                 "alias": "Arlean Borovetz",
                                 "balance": "9534.81",
                                 "iban": "BE96001123145131",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145131#EUR#123"
                             }, {
                                 "alias": "Ed Delapuente",
                                 "balance": "3025.67",
                                 "iban": "BE96001123145598",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145598#EUR#123"
                             }, {
                                 "alias": "Eusebio Brandly",
                                 "balance": "9923.97",
                                 "iban": "BE96001123149347",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149347#EUR#123"
                             }, {
                                 "alias": "Ricky Peru",
                                 "balance": "2777.25",
                                 "iban": "BE96001123145622",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145622#EUR#123"
                             }, {
                                 "alias": "Adrian Tobeck",
                                 "balance": "5963.17",
                                 "iban": "BE96001123142811",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142811#EUR#123"
                             }, {
                                 "alias": "Laverne Lighthall",
                                 "balance": "7032.75",
                                 "iban": "BE9600112314108",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314108#EUR#123"
                             }, {
                                 "alias": "Imelda Vanvoorhees",
                                 "balance": "3770.75",
                                 "iban": "BE96001123147478",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147478#EUR#123"
                             }, {
                                 "alias": "Jalisa Risbeck",
                                 "balance": "5702.14",
                                 "iban": "BE96001123147313",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147313#EUR#123"
                             }, {
                                 "alias": "Ying Kulpa",
                                 "balance": "7967.51",
                                 "iban": "BE96001123142435",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142435#EUR#123"
                             }, {
                                 "alias": "Leandro Polintan",
                                 "balance": "5380.33",
                                 "iban": "BE96001123149581",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149581#EUR#123"
                             }, {
                                 "alias": "Latasha Streater",
                                 "balance": "3279.94",
                                 "iban": "BE96001123144745",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144745#EUR#123"
                             }, {
                                 "alias": "Glinda Natoli",
                                 "balance": "9946.02",
                                 "iban": "BE9600112314275",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314275#EUR#123"
                             }, {
                                 "alias": "Eliana Pelayo",
                                 "balance": "4711.49",
                                 "iban": "BE96001123146286",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146286#EUR#123"
                             }, {
                                 "alias": "Marine Grippe",
                                 "balance": "222.65",
                                 "iban": "BE96001123142748",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142748#EUR#123"
                             }, {
                                 "alias": "Hedy Tier",
                                 "balance": "6628.98",
                                 "iban": "BE96001123145549",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145549#EUR#123"
                             }, {
                                 "alias": "Ernesto Matro",
                                 "balance": "3382.04",
                                 "iban": "BE9600112314639",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314639#EUR#123"
                             }, {
                                 "alias": "Marlen Mcmanamon",
                                 "balance": "2185.09",
                                 "iban": "BE9600112314150",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314150#EUR#123"
                             }, {
                                 "alias": "Lynn Crumbly",
                                 "balance": "3832.97",
                                 "iban": "BE96001123147869",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147869#EUR#123"
                             }, {
                                 "alias": "Denver Balancia",
                                 "balance": "3186.16",
                                 "iban": "BE96001123149764",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149764#EUR#123"
                             }, {
                                 "alias": "Tommy Topham",
                                 "balance": "2889.86",
                                 "iban": "BE96001123142291",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142291#EUR#123"
                             }, {
                                 "alias": "Laci Kwasnik",
                                 "balance": "6361.83",
                                 "iban": "BE96001123145245",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145245#EUR#123"
                             }, {
                                 "alias": "Damien Spade",
                                 "balance": "6927.66",
                                 "iban": "BE96001123141305",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141305#EUR#123"
                             }, {
                                 "alias": "Wendy Dincher",
                                 "balance": "3815.47",
                                 "iban": "BE96001123147573",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147573#EUR#123"
                             }, {
                                 "alias": "Oleta Cartright",
                                 "balance": "9510.07",
                                 "iban": "BE96001123146358",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146358#EUR#123"
                             }, {
                                 "alias": "Leonila Germann",
                                 "balance": "2154.94",
                                 "iban": "BE96001123149450",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149450#EUR#123"
                             }, {
                                 "alias": "Mariela Cisneros",
                                 "balance": "900.62",
                                 "iban": "BE96001123148252",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148252#EUR#123"
                             }, {
                                 "alias": "Jose Burkhammer",
                                 "balance": "9314.10",
                                 "iban": "BE96001123146915",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146915#EUR#123"
                             }, {
                                 "alias": "Gail Norales",
                                 "balance": "2488.39",
                                 "iban": "BE96001123148229",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123148229#EUR#123"
                             }, {
                                 "alias": "Sharyn Patchen",
                                 "balance": "1198.81",
                                 "iban": "BE96001123142125",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142125#EUR#123"
                             }, {
                                 "alias": "Herb Whittenton",
                                 "balance": "9756.20",
                                 "iban": "BE96001123141932",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123141932#EUR#123"
                             }, {
                                 "alias": "Otha Tregan",
                                 "balance": "3505.77",
                                 "iban": "BE96001123144945",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144945#EUR#123"
                             }, {
                                 "alias": "Bernardina Regans",
                                 "balance": "9405.01",
                                 "iban": "BE96001123143476",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123143476#EUR#123"
                             }, {
                                 "alias": "Rex Bizcassa",
                                 "balance": "8011.37",
                                 "iban": "BE9600112314111",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314111#EUR#123"
                             }, {
                                 "alias": "Sherita Llaneza",
                                 "balance": "2842.33",
                                 "iban": "BE96001123147834",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123147834#EUR#123"
                             }, {
                                 "alias": "Terri Borghi",
                                 "balance": "2313.22",
                                 "iban": "BE96001123142967",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142967#EUR#123"
                             }, {
                                 "alias": "Carley Mckirgan",
                                 "balance": "1379.10",
                                 "iban": "BE96001123149883",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123149883#EUR#123"
                             }, {
                                 "alias": "Magdalen Gatson",
                                 "balance": "4049.19",
                                 "iban": "BE96001123142909",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142909#EUR#123"
                             }, {
                                 "alias": "Shaunta Mulrooney",
                                 "balance": "8773.75",
                                 "iban": "BE96001123146816",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146816#EUR#123"
                             }, {
                                 "alias": "Ulysses Sidberry",
                                 "balance": "8850.29",
                                 "iban": "BE96001123144042",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123144042#EUR#123"
                             }, {
                                 "alias": "Brittany Ala",
                                 "balance": "3948.17",
                                 "iban": "BE96001123145530",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123145530#EUR#123"
                             }, {
                                 "alias": "Wilhemina Romm",
                                 "balance": "1294.38",
                                 "iban": "BE96001123142921",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123142921#EUR#123"
                             }, {
                                 "alias": "Elvira Loan",
                                 "balance": "1651.49",
                                 "iban": "BE9600112314225",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE9600112314225#EUR#123"
                             }],
                             "savingAccounts": [{
@@ -2408,7 +2415,7 @@ define(function() {
                                 "balance": "4838.11",
                                 "iban": "BE96001123146162",
                                 "currency": "EUR",
-                                "type": "CURRENT",
+                                "type": "Medical",
                                 "id": "BE96001123146162#EUR#123"
                             }],
                             "savingAccounts": []
@@ -2458,8 +2465,204 @@ define(function() {
                     "globalIndicator": null,
                     "text": null
                 }
+            },
+            beneficiaryData: {
+                "value": {
+                    "originatorAccounts": {
+                        "ownOriginatorAccounts": {
+                            "currentAccounts": [{
+                                "alias": "Donna Dudley",
+                                "balance": "5720.63",
+                                "accountNumber": "BE96001123146736",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123146736#EUR#123"
+                            }, {
+                                "alias": "Rene Famiano",
+                                "balance": "5981.97",
+                                "accountNumber": "BE96001123142378",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123142378#EUR#123"
+                            }, {
+                                "alias": "Barry Kanzenbach",
+                                "balance": "2785.36",
+                                "accountNumber": "BE96001123148279",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123148279#EUR#123"
+                            }, {
+                                "alias": "Kris Hagopian",
+                                "balance": "7316.07",
+                                "accountNumber": "BE96001123148815",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123148815#EUR#123"
+                            }, {
+                                "alias": "Donella Wolbrecht",
+                                "balance": "7971.25",
+                                "accountNumber": "BE96001123143752",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123143752#EUR#123"
+                            }, {
+                                "alias": "Mellisa Intriago",
+                                "balance": "2591.32",
+                                "accountNumber": "BE96001123145770",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123145770#EUR#123"
+                            }, {
+                                "alias": "Rosio Canard",
+                                "balance": "5952.06",
+                                "accountNumber": "BE96001123147116",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123147116#EUR#123"
+                            }, {
+                                "alias": "Debbra Pishner",
+                                "balance": "8429.74",
+                                "accountNumber": "BE96001123144435",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123144435#EUR#123"
+                            }, {
+                                "alias": "Kimberely Wiechman",
+                                "balance": "8607.84",
+                                "accountNumber": "BE96001123141833",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123141833#EUR#123"
+                            }, {
+                                "alias": "Norene Skuse",
+                                "balance": "966.02",
+                                "accountNumber": "BE96001123145611",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123145611#EUR#123"
+                            }],
+                            "savingAccounts": [{
+                                "alias": "Kaye Comrey",
+                                "balance": "2970.76",
+                                "accountNumber": "BE96001123142179",
+                                "currency": "EUR",
+                                "type": "SAVINGS",
+                                "id": "BE96001123142179#EUR#123"
+                            }]
+                        }
+                    },
+                    "recipientAccounts": {
+                        "beneficiaryAccounts": [{
+                            "alias": "Lucien Lacuesta",
+                            "accountNumber": "BE96001123149007",
+                            "name": "Leticia Solari"
+                        }, {
+                            "alias": "Shu Mendrin",
+                            "accountNumber": "BE96001123145906",
+                            "name": "Julio Stay"
+                        }, {
+                            "alias": "Tori Stramiello",
+                            "accountNumber": "BE960011231479",
+                            "name": "Dortha Jourdan"
+                        }, {
+                            "alias": "Dewayne Oltman",
+                            "accountNumber": "BE96001123141306",
+                            "name": "Carline Morfee"
+                        }, {
+                            "alias": "Everett Antaya",
+                            "accountNumber": "BE96001123141877",
+                            "name": "Tova Draudt"
+                        }],
+                        "ownRecipientAccounts": {
+                            "currentAccounts": [{
+                                "alias": "Bertram Bourgault",
+                                "balance": "5201.11",
+                                "accountNumber": "BE96001123144695",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123144695#EUR#123"
+                            }, {
+                                "alias": "Lashaun Papike",
+                                "balance": "2738.94",
+                                "accountNumber": "BE96001123145726",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123145726#EUR#123"
+                            }, {
+                                "alias": "Zora Daluz",
+                                "balance": "6682.44",
+                                "accountNumber": "BE96001123149472",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123149472#EUR#123"
+                            }, {
+                                "alias": "Agustin Kocian",
+                                "balance": "209.86",
+                                "accountNumber": "BE96001123141660",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123141660#EUR#123"
+                            }, {
+                                "alias": "Lynsey Haskell",
+                                "balance": "7537.97",
+                                "accountNumber": "BE96001123148351",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123148351#EUR#123"
+                            }, {
+                                "alias": "Will Danny",
+                                "balance": "9440.36",
+                                "accountNumber": "BE96001123142992",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123142992#EUR#123"
+                            }, {
+                                "alias": "Alona Riback",
+                                "balance": "9760.80",
+                                "accountNumber": "BE96001123141486",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123141486#EUR#123"
+                            }, {
+                                "alias": "Sean Lundy",
+                                "balance": "7321.70",
+                                "accountNumber": "BE96001123149682",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123149682#EUR#123"
+                            }, {
+                                "alias": "Charles Imhoff",
+                                "balance": "3343.32",
+                                "accountNumber": "BE96001123148991",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123148991#EUR#123"
+                            }, {
+                                "alias": "Tyson Lindquist",
+                                "balance": "3879.27",
+                                "accountNumber": "BE96001123145996",
+                                "currency": "EUR",
+                                "type": "CURRENT",
+                                "id": "BE96001123145996#EUR#123"
+                            }],
+                            "savingAccounts": [{
+                                "alias": "Brianna Maddaleno",
+                                "balance": "5931.66",
+                                "accountNumber": "BE96001123143726",
+                                "currency": "EUR",
+                                "type": "SAVINGS",
+                                "id": "BE96001123143726#EUR#123"
+                            }]
+                        }
+                    }
+                },
+                "businessMessageBulk": {
+                    "messages": [],
+                    "pewCode": null,
+                    "globalIndicator": null,
+                    "text": null
+                }
             }
         }
-    }
-
+    };
 });
