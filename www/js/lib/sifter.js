@@ -51,7 +51,7 @@
 
 		var i, n, regex, letter;
 		var tokens = [];
-		var words = query.split(/ +/);
+		var words = query.split();
 
 		for (i = 0, n = words.length; i < n; i++) {
 			regex = escape_regex(words[i]);
