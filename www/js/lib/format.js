@@ -109,8 +109,8 @@
         this.formatField('restrictAmount');
         this.on('keypress', formatBackAmount);
         this.on('blur', formatAmount);
-        //this.on('keydown', formatBackCardNumber);
-        //this.on('keyup', setCardType);
+        this.on('keydown', reformatBackAmount);
+        //this.on('keyup', restrictCaretAmount);
         this.on('paste', reformatAmount);
         return this;
     };
@@ -122,6 +122,43 @@
         //this.on('keyup', setCardType);
         this.on('paste', restrictStructuredMessage);
         return this;
+    };
+    getCaretPosition = function(e) {
+        var $target;
+        $target = $(e.currentTarget);
+        if ($target.prop('selectionStart') !== null) {
+            return $target.prop('selectionStart');
+            //valueAfterCaret = value.slice(caretPos);
+        }
+        return 0;
+    };
+    restrictCaretAmount = function(e) {
+        var $target, value, caretPos, valueAfterCaret, input;
+        $target = $(e.currentTarget);
+        //value = $target.val();
+        //input = String.fromCharCode(e.which);
+        //console.log(input);
+        if (/(\.|,)/.test(input) && $target.prop('selectionStart') !== null) {
+            caretPos = $target.prop('selectionStart');
+            valueAfterCaret = value.slice(caretPos);
+            if (valueAfterCaret.length > 2) {
+                return false;
+                //value = value.slice(0, valueAfterCaret-1) + value.slice(valueAfterCaret);
+                //console.log(value);
+            }
+        }
+        return 0;
+        //console.log($target.val());
+        //console.log(String.fromCharCode(e.which));
+        //value = value.replace(/[^\d\.,]/g, '');
+        //return !!/^(?:(?:[\d]{1,15})|(?:[\d]{1,15}(,|\.){1}[\d]{0,2}))$/g.test(value);
+    };
+    reformatBackAmount = function(e) {
+        var $target, input;
+        if (e.which == 8 || e.which == 46) {
+
+
+        }
     };
     /**
      * [formatAmount description]
@@ -137,19 +174,31 @@
 
     };
     formatBackAmount = function(e) {
-        var $target, value, input;
+        var $target, value, input, caretPos;
         $target = $(e.currentTarget);
+        value = $target.val();
+        input = String.fromCharCode(e.which);
         //if (hasTextSelected($target)) {
         //     return;
         //}
         if (hasTextSelected($target)) {
            return;
         }
+        caretPos = getCaretPosition(e) || 0;
+        if (value.length !== caretPos) {
+            value = value.slice(0, caretPos) + input + value.slice(caretPos);
+            //console.log(value);
+        }
+        else {
+            value = value + input;
+        }
+        /*if (!restrictCaretAmount(e)) {
+            return false;
+        }*/
         /*if (/[^\d\.,]/.test(input)) {
             return false;
         }*/
-        input = String.fromCharCode(e.which);
-        value = $target.val() + input;
+        
         value = value.replace(/[^\d\.,]/g, '');
         return !!/^(?:(?:[\d]{1,15})|(?:[\d]{1,15}(,|\.){1}[\d]{0,2}))$/g.test(value);
     };
@@ -184,15 +233,19 @@
 
     };
     $.formatField.formatAmount = function(value){
-        var seperator;
+        var seperator, maxAmount;
         //if 0 return ""
         if (parseFloat(value.replace(',','.')) ===0) {
             return "";
         }
 
         //if only number return true;
-        if (/^[\d]+$/.test(value)) {
+        if (/^[\d]{1,15}$/.test(value)) {
             return value;
+        }
+        //
+        if (/^[\d]{15}(\d{1,})$/.test(value)) {
+            return value.slice(0,15);
         }
         //if pasting other than numbers return false
         if (/[^\d\.,]/g.test(value)){
