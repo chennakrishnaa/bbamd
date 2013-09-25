@@ -109,7 +109,7 @@
         this.formatField('restrictAmount');
         this.on('keypress', formatBackAmount);
         this.on('blur', formatAmount);
-        this.on('keydown', reformatBackAmount);
+        //this.on('keydown', reformatBackAmount);
         //this.on('keyup', restrictCaretAmount);
         this.on('paste', reformatAmount);
         return this;
@@ -152,13 +152,6 @@
         //console.log(String.fromCharCode(e.which));
         //value = value.replace(/[^\d\.,]/g, '');
         //return !!/^(?:(?:[\d]{1,15})|(?:[\d]{1,15}(,|\.){1}[\d]{0,2}))$/g.test(value);
-    };
-    reformatBackAmount = function(e) {
-        var $target, input;
-        if (e.which == 8 || e.which == 46) {
-
-
-        }
     };
     /**
      * [formatAmount description]
