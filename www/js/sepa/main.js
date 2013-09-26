@@ -1,7 +1,8 @@
-define(['selectize', 'underscore', 'format','jquery.mask'], function(selectize, _, format) {
+define(['selectize', 'underscore', 'format','jquery.mask', 'textarea.count'], function(selectize, _, format) {
     //console.log(selectize);
     $('.currency').formatField("formatAmount");
     $('.structured').mask("+++ 999/9999/9999 +++");
+    $('.freetext').checkCount({elem:".count"});
     $.getJSON("/rpc/sepa/getFundTransferEntryCharacteristics").done(function(xhr) {
         var items = [];
         _.map(xhr.value.originatorAccounts.ownOriginatorAccounts,
