@@ -1,4 +1,19 @@
 define(["rivets", "backbone"], function(rivets, backbone) {
+    //custom binders
+    rivets.binders.input = {
+        publishes: true,
+        routine: rivets.binders.value.routine,
+        bind: function(el) {
+            el.addEventListener('input', this.publish);
+        },
+        unbind: function(el) {
+            el.removeEventListener('input', this.publish);
+        }
+    };
+    //formatter
+    rivets.formatters.type = function(value, type) {
+        return value === type;
+    };
     rivets.configure({
         adapter: {
             subscribe: function(obj, keypath, callback) {
@@ -23,14 +38,14 @@ define(["rivets", "backbone"], function(rivets, backbone) {
                     });
                 }
             },
-            read:function (obj, keypath) {
+            read: function(obj, keypath) {
                 if (obj instanceof Backbone.Collection) {
                     return obj["models"];
                 } else {
                     return obj.get(keypath);
                 }
             },
-            publish:function (obj, keypath, value) {
+            publish: function(obj, keypath, value) {
                 if (obj instanceof Backbone.Collection) {
                     obj["models"] = value;
                 } else {

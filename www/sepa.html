@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-   <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width">
     <title>Sepa Transfer</title>
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/main.css">
@@ -31,15 +31,15 @@
 
 <body>
     <div id="wrapper">
-    <div class="demo">
+        <!--<div class="demo">
         <div class="control-group">
             <label for="select-animal">Animal:</label>
             <select id="select-animal" class="select-animal demo-animals" placeholder="Select animal..."></select>
         </div>
        
 
-    </div>
-     <!--<div class="demo">
+    </div>-->
+        <!--<div class="demo">
         <div class="control-group">
             <label for="select-account">From:</label>
             <select id="select-account" class="select-account demo-animals" placeholder="Select account..."></select>
@@ -50,19 +50,41 @@
         </div>
        <input type="text" placeholder="***** ***** ***** *****" class="currency">
     </div>-->
-     <div class="demo">
-        <div class="control-group">
-            <label for="select-beneficiary">To:</label>
-            <select id="select-beneficiary" class="select-beneficiary demo-animals" placeholder="Select account..."></select>
+        <div class="demo">
+            <div class="control-group">
+                <label for="select-beneficiary">To:</label>
+                <select id="select-beneficiary" class="select-beneficiary demo-animals" placeholder="Select account..."></select>
+            </div>
+
         </div>
-         
-    </div>
-    <input type="text" placeholder="***** ***** ***** *****" pattern="\d*" class="currency">
-    <input type="text" placeholder="+++ 999/9999/99999 +++" class="structured">
-    <textarea class="freetext" maxlength = "100" rows="4"></textarea>
-    <div class="remaining_count" ><span class="count"></span><span>chars left</span></div>
-    
-</div>
+        <input type="text" placeholder="***** ***** ***** *****" pattern="\d*" class="currency">
+        <!--<input type="text" placeholder="+++ 999/9999/99999 +++" class="structured">
+        <textarea class="freetext" maxlength="100" rows="4"></textarea>
+        <div class="remaining_count">
+            <span class="count"></span>
+            <span>chars left</span>
+        </div>-->
+        <div class="select_message">
+            <select class="message_type" data-value="message.option">
+                <option value="nomessage" selected>no message</option>
+                <option value="structured">structured</option>
+                <option value="euro">euro</option>
+                <option value="freetext">free text</option>
+            </select>
+            <div data-show="message.option | type structured">
+                <input type="text" placeholder="+++ 999/9999/99999 +++" data-value="message.structured" />
+            </div>
+            <div>
+                <div class="message_option euro" data-show="message.option | type euro">
+                    <textarea data-value="message.euro" data-input="message.euro" maxlength="25"></textarea>
+                    <span data-text="message:characters < .euro .option"></span>
+                </div>
+                <div class="message_option freetext" data-show="message.option | type freetext">
+                    <textarea data-value="message.freetext" data-input="message.freetext"></textarea>
+                    <span data-text="message:characters < .freetext .option"></span>
+                </div>
+            </div>
+        </div>
 </body>
 
 </html>

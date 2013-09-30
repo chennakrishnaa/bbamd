@@ -1,33 +1,42 @@
-define(['selectize', 'underscore', 'format','jquery.mask', 'textarea.count'], function(selectize, _, format) {
-    //console.log(selectize);
-    $('.currency').formatField("formatAmount");
-    $('.structured').mask("+++ 999/9999/9999 +++");
-    $('.freetext').checkCount({elem:".count"});
-    $.getJSON("/rpc/sepa/getFundTransferEntryCharacteristics").done(function(xhr) {
-        var items = [];
-        _.map(xhr.value.originatorAccounts.ownOriginatorAccounts,
-            function(accountType) {
-                return _.map(accountType, function(data) {
-                    items.push(data);
+define(['selectize', 'underscore', 'format', 'jquery.mask', 'textarea.count', 'rivets', 'rivetsconfig', './model/message'],
+    function(selectize, _, format, mask, count, rivets, rivetsconfig, Message) {
+        //console.log(selectize);
+
+        var message = new Message();
+        var $el = $('.select_message');
+        rivets.bind($el, {
+            message: message
+        });
+        $('.currency').formatField("formatAmount");
+        $('.structured').mask("+++ 999/9999/9999 +++");
+        $('.freetext').checkCount({
+            elem: ".count"
+        });
+        $.getJSON("/rpc/sepa/getFundTransferEntryCharacteristics").done(function(xhr) {
+            var items = [];
+            _.map(xhr.value.originatorAccounts.ownOriginatorAccounts,
+                function(accountType) {
+                    return _.map(accountType, function(data) {
+                        items.push(data);
+                    });
                 });
-            });
-        console.log(items);
-        /*$('.select-account').selectize({
+            console.log(items);
+            /*$('.select-account').selectize({
                 options: items,
                 optgroups:
             });*/
-        var types = _.unique(_.map(items, function(item) {
-            return item.type;
-        }));
-        types = _.map(types, function(type) {
-            return {
-                value: type,
-                label: type
-            };
-        });
-        console.log(types);
+            var types = _.unique(_.map(items, function(item) {
+                return item.type;
+            }));
+            types = _.map(types, function(type) {
+                return {
+                    value: type,
+                    label: type
+                };
+            });
+            console.log(types);
 
-        /*var $select = $('.select-account').selectize({
+            /*var $select = $('.select-account').selectize({
             options: items,
             optgroups: types,
             optgroupField: 'type',
@@ -50,37 +59,41 @@ define(['selectize', 'underscore', 'format','jquery.mask', 'textarea.count'], fu
                 }
             }
         });*/
-        var benAccounts = [];
-        _.map(xhr.value.recipientAccounts.beneficiaryAccounts,
-            function(benAccount) {
-                benAccounts.push(_.extend(benAccount, {
-                    "group": "Beneficiaries",
-                    "type": "Beneficiaries"
-                }));
-            });
-        console.log(benAccounts);
-        /*$('.select-account').selectize({
+            var benAccounts = [];
+            _.map(xhr.value.recipientAccounts.beneficiaryAccounts,
+                function(benAccount) {
+                    benAccounts.push(_.extend(benAccount, {
+                        "group": "Beneficiaries",
+                        "type": "Beneficiaries"
+                    }));
+                });
+            console.log(benAccounts);
+            /*$('.select-account').selectize({
                 options: items,
                 optgroups:
             });*/
-        _.map(xhr.value.recipientAccounts.ownRecipientAccounts,
-            function(accountType) {
-                return _.map(accountType, function(data) {
-                    benAccounts.push(_.extend(data, {
-                        "group": "ownAccounts"
-                    }));
+            _.map(xhr.value.recipientAccounts.ownRecipientAccounts,
+                function(accountType) {
+                    return _.map(accountType, function(data) {
+                        benAccounts.push(_.extend(data, {
+                            "group": "ownAccounts"
+                        }));
+                    });
                 });
+            console.log(benAccounts);
+            var benTypes = _.map(_.uniq(_.map(benAccounts, function(benAccount) {
+                return benAccount.group + ',' + benAccount.type;
+            })), function(benType) {
+                var s = benType.split(",");
+                return {
+                    group: s[0],
+                    type: s[1],
+                    label: s[1]
+                };
             });
-        console.log(benAccounts);
-        var benTypes = _.map(_.uniq(_.map(benAccounts, function(benAccount) {
-            return benAccount.group + ',' + benAccount.type;
-        })), function(benType) {
-            var s = benType.split(",");
-            return {group:s[0],type:s[1],label:s[1]};
-        });
-        //benTypes = _.uniq(benTypes);
-        console.log(benTypes);
-        /*var ownAccounts = _.unique(_.map(items, function(item) {
+            //benTypes = _.uniq(benTypes);
+            console.log(benTypes);
+            /*var ownAccounts = _.unique(_.map(items, function(item) {
                     return item.type;
                 }));
                 types = _.map(types, function(type) {
@@ -89,34 +102,34 @@ define(['selectize', 'underscore', 'format','jquery.mask', 'textarea.count'], fu
                         label: type
                     };
                 });*/
-        //console.log(types);
-        var $select1 = $('.select-beneficiary').selectize({
-                        options: benAccounts,
-                        optgroups: benTypes,
-                        optgroupField: 'type',
-                        optgroupLabelField: 'label',
-                        optgroupValueField: 'type',
-                        labelField: 'alias',
-                        valueField: 'accountNumber',
-                        searchField: ['alias', 'accountNumber'],
-                        render: {
-                            option: function(data, escape) {
-                                return '<div><div><span class="label">' + escape(data.alias) + '</span></div><span class="caption">' + escape(data.accountNumber) + '</span></div>';
-                            },
-                            optgroup_header: function(data, escape) {
-                                if (!this.group) this.group = "";
-                                console.log(this.group);
-                                if (this.group !== data.group) {
-                                    this.group = data.group;
-                                    return '<div class="group">' + escape(data.group) + '</div><div class="optgroup-header">' + escape(data.type) + '</div>' ;
-                                }
-                                else {
-                                    return '<div class="optgroup-header">' + escape(data.type) + '</div>';
-                                }
-                                //return '<div class="optgroup-header">' + escape(data.label) + ' <span class="scientific">' + escape(data.label_scientific) + '</span></div>';
-                            }
-                        }});
-        $('.select-animal').selectize({
+            //console.log(types);
+            var $select1 = $('.select-beneficiary').selectize({
+                options: benAccounts,
+                optgroups: benTypes,
+                optgroupField: 'type',
+                optgroupLabelField: 'label',
+                optgroupValueField: 'type',
+                labelField: 'alias',
+                valueField: 'accountNumber',
+                searchField: ['alias', 'accountNumber'],
+                render: {
+                    option: function(data, escape) {
+                        return '<div><div><span class="label">' + escape(data.alias) + '</span></div><span class="caption">' + escape(data.accountNumber) + '</span></div>';
+                    },
+                    optgroup_header: function(data, escape) {
+                        if (!this.group) this.group = "";
+                        console.log(this.group);
+                        if (this.group !== data.group) {
+                            this.group = data.group;
+                            return '<div class="group">' + escape(data.group) + '</div><div class="optgroup-header">' + escape(data.type) + '</div>';
+                        } else {
+                            return '<div class="optgroup-header">' + escape(data.type) + '</div>';
+                        }
+                        //return '<div class="optgroup-header">' + escape(data.label) + ' <span class="scientific">' + escape(data.label_scientific) + '</span></div>';
+                    }
+                }
+            });
+            /*$('.select-animal').selectize({
             options: [{
                 class: 'mammal',
                 value: "dog",
@@ -188,7 +201,7 @@ define(['selectize', 'underscore', 'format','jquery.mask', 'textarea.count'], fu
                     return '<div class="optgroup-header">' + escape(data.label) + ' <span class="scientific">' + escape(data.label_scientific) + '</span></div>';
                 }
             }
+        });*/
         });
-    });
 
-});
+    });
